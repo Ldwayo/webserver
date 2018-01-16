@@ -197,7 +197,7 @@ int main(int argc, char **argv)
             (void)printf(" %s", extensions[i].ext);
         (void)printf("\n\tNot Supported: URLs including \"..\", Java, Javascript, CGI\n"
                      "\tNot Supporwebted: directories / /etc /bin /lib /tmp /usr /dev /sbin \n"
-                     "\tNo warranty given or implied\n\tNigel Griffiths nag@uk.ibm.com\n");
+                     "\tNo warranty given or implied\n");
         exit(0);
     }
     if (!strncmp(argv[2], "/", 2) || !strncmp(argv[2], "/etc", 5) ||
